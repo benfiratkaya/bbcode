@@ -124,10 +124,6 @@ Add HTML parser to translate pattern to desired one.
 
 See `addParser` for example code.
 
-### `addLinebreakParser()`
-
-Adds linebreak parser to BBCode parsers list to convert newlines to `<br />` in HTML.
-
 ## Laravel installation
 
 Once BBCode is installed, you need to register the service provider. Open up `config/app.php` and add the following to the `providers` key.

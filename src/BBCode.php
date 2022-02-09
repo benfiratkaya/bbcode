@@ -65,6 +65,6 @@ final class BBCode
 
     public function addLinebreakParser()
     {
-        return $this->addParser('linebreak', '/[\r\n]/', '<br />', '');
+        return $this->addParser('linebreak', '/\[\\r\\n\]/', '<br />', '');
     }
 }

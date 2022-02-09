@@ -37,7 +37,7 @@ final class BBCodeParser extends Parser
         ],
         'bold' => [
             'pattern' => '/\[b\](.*?)\[\/b\]/s',
-            'replace' => '<b>$1</b>',
+            'replace' => '<strong>$1</strong>',
             'content' => '$1'
         ],
         'italic' => [

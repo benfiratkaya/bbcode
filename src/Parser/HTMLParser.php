@@ -112,7 +112,7 @@ final class HTMLParser extends Parser
         ],
         'linebreak' => [
             'pattern' => '/<br\s*\/?>/',
-            'replace' => '[\r\n]',
+            'replace' => '[br]',
             'content' => '',
         ],
         'sub' => [
